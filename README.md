@@ -32,8 +32,8 @@ If you find the code useful for your research, please consider citing our paper:
 ## Installation
 a. Create a conda virtual environment from the provided environment.yml and activate it.
 ```shell
-git clone https://github.com/DeepSceneSeg/EfficientPS.git
-cd EfficientPS
+git clone https://github.com/kshitij3112/EvPSNet.git
+cd EvPSNet
 conda env create -n EvPSnet_env --file=environment.yml
 conda activate EvPSnet_env
 ```
@@ -104,7 +104,7 @@ Test with multiple GPUS:
 ## Additional Notes:
    * tool/cityscapes_inference.py: saves predictions in the official cityscapes panoptic format.
    * tool/cityscapes_save_predictions.py: saves color visualizations.
-   * This is a re-implementation of EfficientPS in PyTorch. The performance of the trained models might slightly differ from the metrics reported in the paper. Please refer to the metrics reported in [Uncertainty-aware Panoptic Segmentation](https://arxiv.org/abs/2206.14554) when making comparisons.
+   * This is an impmentation of EvPSNet in PyTorch. Please refer to the metrics reported in [Uncertainty-aware Panoptic Segmentation](https://arxiv.org/abs/2206.14554) when making comparisons.
 
 ## Acknowledgements
 We have used utility functions from other open-source projects. We especially thank the authors of:
