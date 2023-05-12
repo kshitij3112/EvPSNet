@@ -32,8 +32,8 @@ If you find the code useful for your research, please consider citing our paper:
 ## Installation
 a. Create a conda virtual environment from the provided environment.yml and activate it.
 ```shell
-git clone https://github.com/DeepSceneSeg/EfficientPS.git
-cd EfficientPS
+git clone https://github.com/kshitij3112/EvPSNet.git
+cd EvPSNet
 conda env create -n EvPSnet_env --file=environment.yml
 conda activate EvPSnet_env
 ```
